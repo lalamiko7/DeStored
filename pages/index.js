@@ -13,18 +13,18 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">DeStored</a>
+          Welcome to <a target="_blank" href="https://github.com/lalamiko7/DeStored">DeStored</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          A user interface for accessing <a target="_blank" href="https://ipfs.io">IPFS</a> files.
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <Image src="http://127.0.0.1:8080/ipfs/QmdDijyxvU5muSP9FCywbvbKbJZFKcw3fYG2zcqDHiWNhR"
+                   alt="Test picture of monkey" width={500} height={400}/>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
