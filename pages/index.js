@@ -13,11 +13,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a target="_blank" href="https://github.com/lalamiko7/DeStored">DeStored</a>
+          Welcome to <a href="https://github.com/lalamiko7/DeStored">DeStored</a>
         </h1>
 
         <p className={styles.description}>
-          A user interface for accessing <a target="_blank" href="https://ipfs.io">IPFS</a> files.
+          A user interface for accessing <a href="https://ipfs.io">IPFS</a> files.
         </p>
 
         <div className={styles.grid}>
